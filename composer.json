@@ -1,0 +1,26 @@
+{
+	"name": "test/test",
+	"version": "1.0.0",
+	"description": "test",
+	"homepage": "http://test.com",
+	"authors": [
+		{
+			"name": "test",
+			"email": "ashashingadia@gmail.com",
+			"homepage": "http://test.com"
+		}
+	],
+	"autoload": {
+		"psr-0": {
+			"test\\": "lib/"
+		}
+	},
+	"require": {
+		"ext-json": "*",
+                "guzzlehttp/guzzle": "^6.0"
+	},
+	"support": {
+		"issues": "https://github.com/test/test123/issues"
+	},
+	"license": "MIT"
+}
